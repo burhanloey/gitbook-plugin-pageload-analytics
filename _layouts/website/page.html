@@ -1,0 +1,10 @@
+{% extends template.self %}
+
+{% block body %}
+{{ super() }}
+<script>
+ gitbook.push(function() {
+     console.log("Hello! We're on new page now.");
+ });
+</script>
+{% endblock %}
