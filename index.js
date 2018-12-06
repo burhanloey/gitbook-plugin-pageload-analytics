@@ -4,5 +4,10 @@ module.exports = {
         js: [
             'track.js'
         ]
+    },
+    filters: {
+        token: function(config) {
+            return config.get("token");
+        }
     }
 };
