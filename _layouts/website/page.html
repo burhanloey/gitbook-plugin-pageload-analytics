@@ -3,7 +3,7 @@
 {% block body %}
 {{ super() }}
 <script>
- gitbook.push(function() {
+ gitbook.events.on('page.change', function() {
      console.log("Hello! We're on new page now.");
  });
 </script>
