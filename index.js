@@ -1,3 +1,8 @@
 module.exports = {
-    hooks: {}
+    book: {
+        assets: './assets',
+        js: [
+            'track.js'
+        ]
+    }
 };
