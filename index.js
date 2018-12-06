@@ -6,8 +6,8 @@ module.exports = {
         ]
     },
     filters: {
-        token: function(config) {
-            return config.get("token");
+        hello: function(name) {
+            return "Hello " + name;
         }
     }
 };
