@@ -1,0 +1,18 @@
+{
+    "name": "gitbook-plugin-pageload-analytics",
+    "version": "0.0.1",
+    "description": "GitBook plugin for pageload analytics using Google Analytics",
+    "author": "Burhanuddin Baharuddin",
+    "license": "Apache-2.0",
+    "engines": {
+        "gitbook": ">3.x.x"
+    },
+    "gitbook": {
+        "properties": {
+            "token": {
+                "type": "string",
+                "description": "Google Analytics token"
+            }
+        }
+    }
+}
