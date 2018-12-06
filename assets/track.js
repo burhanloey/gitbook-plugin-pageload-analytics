@@ -3,9 +3,9 @@ require([
     'jquery'
 ], function(gitbook, $) {
     gitbook.events.on('start', function(pluginsConfig) {
-        var token = pluginsConfig["pageload-analytics"].token;
+        // var token = pluginsConfig["pageload-analytics"].token;
         console.log("pluginsConfig= " + JSON.stringify(pluginsConfig));
-        console.log("token= " + token);
+        // console.log("token= " + token);
     });
 
     gitbook.events.on('page.change', function() {
