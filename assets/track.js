@@ -3,6 +3,8 @@ require([
     'jquery'
 ], function(gitbook, $) {
     gitbook.events.on('page.change', function() {
-        console.log("Hello! We're on new page now.");
+        ga(function(tracker) {
+            console.log('tracker= ' + tracker);
+        });
     });
 });
