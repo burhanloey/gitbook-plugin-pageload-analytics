@@ -5,7 +5,7 @@
     "author": "Burhanuddin Baharuddin",
     "license": "Apache-2.0",
     "engines": {
-        "gitbook": ">3.x.x"
+        "gitbook": ">=3.x.x"
     },
     "gitbook": {
         "properties": {
