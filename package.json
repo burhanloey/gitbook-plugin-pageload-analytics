@@ -1,11 +1,16 @@
 {
     "name": "gitbook-plugin-pageload-analytics",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "GitBook plugin for pageload analytics using Google Analytics",
     "author": "Burhanuddin Baharuddin",
     "license": "Apache-2.0",
     "engines": {
         "gitbook": ">=3.x.x"
+    },
+    "homepage": "https://github.com/burhanloey/gitbook-plugin-pageload-analytics",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/burhanloey/gitbook-plugin-pageload-analytics.git"
     },
     "gitbook": {
         "properties": {
